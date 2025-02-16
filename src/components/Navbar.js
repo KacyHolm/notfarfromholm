@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
 
 <nav>
-  <Link to="/anna">Anna</Link>
-  <Link to="/chris">Chris</Link>
-  <Link to="/kacy">Kacy</Link>
+  <Link to="/anna-holm">Anna Holm</Link>
+  <Link to="/christopher-holm">Christopher Holm</Link>
+  <Link to="/kacy-holm">Kacy Holm</Link>
 </nav>
 );
 };

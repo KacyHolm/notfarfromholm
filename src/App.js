@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './mainComponents/Navbar';
+import Navbar from './components/Navbar';
 import Anna from './personalPages/anna/Anna';
 import Chris from './personalPages/chris/Chris';
 import Kacy from './personalPages/kacy/Kacy';
@@ -8,25 +7,28 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  Link,
 } from "react-router";
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <div>
         <Router>
-        <Navbar>
-          <Routes>
-            <Route path="/anna" element={<Anna />} />
-            <Route path="/chris" element={<Chris />} />
-            <Route path="/kacy" element={<Kacy />} />
+          <nav>
+            <Link to="/">notfarfromholm</Link>
+          </nav>
+        <Navbar />
+        <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/anna-holm" element={<Anna />} />
+            <Route path="/christopher-holm" element={<Chris />} />
+            <Route path="/kacy-holm" element={<Kacy />} />
           </Routes>
-        </Navbar>
         </Router>
-        
-        <p>
-          Hello World
-        </p>
+        </div>
       </header>
     </div>
   );
