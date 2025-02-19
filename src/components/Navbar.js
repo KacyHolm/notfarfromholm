@@ -1,15 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 const Navbar = () => {
   return (
-
-<nav>
-  <Link to="/anna-holm">Anna Holm</Link>
-  <Link to="/christopher-holm">Christopher Holm</Link>
-  <Link to="/kacy-holm">Kacy Holm</Link>
-</nav>
-);
+    <div className="Navbar">
+      <nav className='Navbar-Home'>
+        <a href="/">notfarfromholm</a>
+      </nav>
+      <nav className="Navbar-Right">
+        <div className="Navbar-Name">
+          <a href="/anna-holm">Anna</a>
+        </div>
+        <div className="Navbar-Name">
+          <a href="/christopher-holm">Christopher</a>
+        </div>
+        <div className="Navbar-Name">
+          <a href="/kacy-holm">Kacy</a>
+        </div>
+      </nav>
+    </div>
+  );
 };
+
 
 export default Navbar;

@@ -1,0 +1,40 @@
+
+
+.Kacy-Intro {
+    background-color: #e9edc9;
+    display: flex;
+}
+
+.Kacy-Theme {
+    padding-top: 4em;
+    color: #373e40;
+    display: grid;
+}
+
+.Kacy-Img {
+    width: 300px;
+    padding-left: 14vw;
+    padding-right: 5vw;
+}
+
+.Kacy-Intro-Text {
+    align-content: center;
+    max-width: 600px;
+}
+
+.Kacy-Intrests {
+    background-color: #ccd5ae;
+    text-align: center;
+}
+
+h1 {
+    font-family: Salhena;
+}
+
+h2 {
+    font-family: geller-headline;
+}
+
+p {
+    font-family: avenir;
+}

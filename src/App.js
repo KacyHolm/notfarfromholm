@@ -7,28 +7,23 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from "react-router";
 import Main from './components/Main';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <header className="App-header">
-        <div>
         <Router>
-          <nav>
-            <Link to="/">notfarfromholm</Link>
-          </nav>
-        <Navbar />
-        <Routes>
+          <Navbar />
+          <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/anna-holm" element={<Anna />} />
             <Route path="/christopher-holm" element={<Chris />} />
             <Route path="/kacy-holm" element={<Kacy />} />
           </Routes>
         </Router>
-        </div>
+
       </header>
     </div>
   );
