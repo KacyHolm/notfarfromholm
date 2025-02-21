@@ -1,7 +1,7 @@
 
 
 .Kacy-Intro {
-    background-color: #e9edc9;
+    background-color: #e9edc9 ;
     display: flex;
 }
 
@@ -25,16 +25,35 @@
 .Kacy-Intrests {
     background-color: #ccd5ae;
     text-align: center;
+    font-size: xxx-large;
+    padding-top: .1em;
 }
 
-h1 {
-    font-family: Salhena;
+.Kacy-h1 {
+
 }
 
-h2 {
+.Kacy-h2 {
     font-family: geller-headline;
 }
 
-p {
+.Kacy-p {
     font-family: avenir;
 }
+
+.parallax {
+    background-image: url('mountian.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vw;
+  }
+
+  .mrs-saint-delafield-regular {
+    font-family: "Mrs Saint Delafield", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

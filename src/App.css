@@ -38,8 +38,7 @@ a:visited {
   text-decoration: none;
 }
 .active {
-  text-decoration: underline;
-  background-color: black;
+  border-bottom: 1mm ridge rgba(211, 220, 50, .6);
 }
 
 .Navbar {
@@ -78,4 +77,11 @@ a:visited {
 
 .Row {
   flex-direction: row;
+}
+
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
