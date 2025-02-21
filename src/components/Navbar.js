@@ -31,7 +31,7 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="Navbar-Name">
-          <a href="/josiah-nunn">Josiah</a>
+          <NavLink to="/josiah-nunn">Josiah</NavLink>
         </div>
       </nav>
     </div>
