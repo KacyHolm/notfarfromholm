@@ -30,6 +30,9 @@ const Navbar = () => {
             Kacy
           </NavLink>
         </div>
+        <div className="Navbar-Name">
+          <a href="/josiah-nunn">Josiah</a>
+        </div>
       </nav>
     </div>
   );

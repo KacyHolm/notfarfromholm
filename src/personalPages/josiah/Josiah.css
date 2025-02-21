@@ -1,0 +1,47 @@
+.background {
+    background-color: #E8E9ED;
+}
+
+.introImage {
+    padding-left: 10vw;
+    width: 350px;
+    border: 10px solid aliceblue;
+}
+
+.introText {
+    color: black;
+    padding-right: 10vw;
+    align-content: center;
+    min-width: 300px;
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    word-wrap: normal;
+}
+
+.navigate {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navButtons {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: avenir;
+    font-size: 25px;
+}
+
+.navButtons:hover {
+    color: wheat
+}
